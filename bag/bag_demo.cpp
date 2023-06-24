@@ -4,6 +4,7 @@
 #include <cstdlib>     // Provides EXIT_SUCCESS
 #include "bag.h"      // With value_type defined as an int
 
+using namespace CSC21200::BagLab;
 using namespace std;
 
 // PROTOTYPES for functions used by this demonstration program:

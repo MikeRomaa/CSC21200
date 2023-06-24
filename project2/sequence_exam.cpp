@@ -14,6 +14,7 @@
 #include <cstdlib>      // Provides size_t.
 #include "sequence.h"  // Provides the sequence class with double items.
 
+using namespace CSC21200::Project2;
 using namespace std;
 
 // Descriptions and points for each of the tests:

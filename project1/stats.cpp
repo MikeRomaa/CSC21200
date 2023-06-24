@@ -1,6 +1,8 @@
 #include <limits>
 #include "stats.h"
 
+namespace CSC21200::Project1 {
+
 Statistician::Statistician() {
     this->reset();
 }
@@ -72,4 +74,6 @@ bool operator==(const Statistician &lhs, const Statistician &rhs) {
            && lhs.sum() == rhs.sum()
            && lhs.minimum() == rhs.minimum()
            && lhs.maximum() == rhs.maximum();
+}
+
 }

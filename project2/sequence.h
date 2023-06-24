@@ -72,6 +72,8 @@
 
 #include <cstdlib>  // Provides size_t
 
+namespace CSC21200::Project2 {
+
 class Sequence {
     public:
         // TYPEDEFS and MEMBER CONSTANTS
@@ -107,3 +109,5 @@ class Sequence {
 };
 
 #endif
+
+}

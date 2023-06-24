@@ -68,6 +68,8 @@
 
 #include <cstdlib>  // Provides size_t
 
+namespace CSC21200::BagLab {
+
 class Bag {
     public:
         // TYPEDEFS and MEMBER CONSTANTS
@@ -106,3 +108,5 @@ class Bag {
 Bag operator+(const Bag &b1, const Bag &b2);
 
 #endif
+
+}

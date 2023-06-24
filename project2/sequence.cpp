@@ -1,13 +1,15 @@
 #include <cassert>
 #include "sequence.h"
 
+namespace CSC21200::Project2 {
+
 Sequence::Sequence() {
     used = 0;
-    current_index = SIZE_MAX;
+    current_index = 0;
 }
 
 void Sequence::start() {
-    current_index = used == 0 ? SIZE_MAX : 0;
+    current_index = 0;
 }
 
 void Sequence::advance() {
@@ -63,3 +65,5 @@ Sequence::size_type Sequence::size() const { return used; }
 bool Sequence::is_item() const { return current_index < used; }
 
 Sequence::value_type Sequence::current() const { return data[current_index]; }
+
+}

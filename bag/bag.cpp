@@ -1,6 +1,8 @@
 #include <cassert>
 #include "bag.h"
 
+namespace CSC21200::BagLab {
+
 Bag::size_type Bag::erase(const value_type &target) {
     Bag::size_type i = 0;
     Bag::size_type count = 0;
@@ -76,4 +78,6 @@ Bag operator-(const Bag &lhs, const Bag &rhs) {
     }
 
     return bag;
+}
+
 }

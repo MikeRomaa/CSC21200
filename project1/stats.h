@@ -61,6 +61,8 @@
 
 #include <iostream>
 
+namespace CSC21200::Project1 {
+
 class Statistician {
     public:
         // CONSTRUCTOR
@@ -101,3 +103,5 @@ class Statistician {
 bool operator==(const Statistician &lhs, const Statistician &rhs);
 
 #endif
+
+}

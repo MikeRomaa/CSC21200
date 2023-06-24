@@ -8,6 +8,7 @@
 #include <iostream>
 #include "stats.h"
 
+using namespace CSC21200::Project1;
 using namespace std;
 
 bool close(double a, double b) {
@@ -250,6 +251,6 @@ int main() {
     cerr << "grade will be " << value << " points out of 90.\n";
     cerr << "\nThe TA will give you another \n";
     cerr << "0 - 10 points by looking into your program.\n";
-    
+
     return EXIT_SUCCESS;
 }
